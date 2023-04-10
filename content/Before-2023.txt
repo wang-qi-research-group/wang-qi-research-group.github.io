@@ -1,5 +1,0 @@
-1. Zhang, Z.;  Yao, H.;  Wang, Q.;  Xue, W.;  Wang, Y.;  Yin, L.;  Wang, X.;  Li, X.;  Chen, C.;  Sui, J.;  Lin, X.;  Chen, Y.;  Liu, X.;  Mao, J.;  Xie, G.; Zhang, Q., Achieving High Thermoelectric Performance in Severely Distorted YbCd2Sb2. Adv. Funct. Mater. 2022, 32 (35), 2205215.
-2. Wang, C.;  Wang, Q.;  Zhang, Q.;  Chen, C.; Chen, Y., Intrinsic Zn Vacancies-Induced Wavelike Tunneling of Phonons and Ultralow Lattice Thermal Conductivity in Zintl Phase Sr2ZnSb2. Chem. Mater. 2022, 34 (17), 7837-7844.
-3. Wang, Q.;  Zeng, Z.; Chen, Y., Revisiting phonon transport in perovskite SrTiO3: Anharmonic phonon renormalization and four-phonon scattering. Phys. Rev. B 2021, 104 (23), 235205.
-4. Wang, Q.;  Guo, R.;  Huang, B.; Chen, Y., Unusual Width Dependence of Lattice Thermal Conductivity in Ultranarrow Armchair Graphene Nanoribbons with Unpassivated Edges. J. Phys. Chem. C 2021, 125 (11), 6034-6042.
-...
