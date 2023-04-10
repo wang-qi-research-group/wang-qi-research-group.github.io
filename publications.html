@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage of Qi Wang: Publications</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			height: 100%;
+			background-color: #f1f1f1;
+		}
+		.image-container {
+			width: 80%;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		.button-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 80%;
+			margin-bottom: 20px;
+		}
+		button {
+			flex-basis: 23%;
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			background-color: #335a5d;
+			color: white;
+			cursor: pointer;
+		}
+		.text {
+			width: 80%;
+			text-align: center;
+			font-size: 18px;
+			line-height: 1.5;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		.contact {
+			width: 80%;
+			text-align: center;
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+		.person-container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			width: 80%;
+			margin-bottom: 20px;
+		}
+		.profile-photo {
+			flex-basis: 30%;
+			text-align: center;
+		}
+		.profile-photo img {
+			width: 100%;
+		}
+		.person-text {
+			flex-basis: 68%;
+			font-size: 16px;
+			line-height: 1.5;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		.publications {
+			width: 80%;
+			margin-bottom: 20px;
+		}
+		.year {
+			margin-bottom: 10px;
+			font-size: 24px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.year:hover {
+			color: #4CAF50;
+		}
+		.publication-list {
+			display: none;
+			list-style: none;
+			padding-left: 0;
+			margin-top: 0;
+		}
+		.publication-list li {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		.publication-list li a {
+			color: #4CAF50;
+			text-decoration: none;
+		}
+		.publication-list li a:hover {
+			text-decoration: underline;
+		}
+		.publication-list.active {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<div class="image-container">
+		<img src="https://via.placeholder.com/900x200.png" alt="Placeholder image">
+	</div>
+	
+	<div class="button-container">
+		<button onclick="window.location.href='index.html'">Home</button>
+		<button onclick="window.location.href='research.html'">Research</button>
+		<button onclick="window.location.href='people.html'">People</button>
+		<button onclick="window.location.href='publications.html'">Publications</button>
+	</div>
+	
+
+	
+	<div class="publications">
+		<h2>Selectd Publications</h2>
+		<p>Our selected publications are listed here.</p>
+		
+		<ul>
+			<li>
+				<span class="year" onclick="toggleYear('2023')">2023</span>
+				<p><b>·</b>  Wang, Q.;  Zeng, Z.;  Zhao, P.;  Chen, C.;  Ouyang, N.;  Mao, J.; Chen, Y., B-Site Columnar-Ordered Halide Double Perovskites: Breaking Octahedra Motions Induces Strong Lattice Anharmonicity and Thermal Anisotropy. Chem. Mater. 2023, 35 (4), 1633-1639.</p>
+				<p><b>·</b>  Tang, J. L.;  Li, G. T.;  Wang, Q.;  Zheng, J. Z.;  Cheng, L.; Guo, R. Q., Effect of four-phonon scattering on anisotropic thermal transport in bulk hexagonal boron nitride by machine learning interatomic potential. Int. J. Heat Mass Transfer 2023, 207.</p>
+			<li>
+				<span class="year" onclick="toggleYear('Before 2023')">Before 2023</span>
+				<p><b>·</b>  Zhang, Z.;  Yao, H.;  Wang, Q.;  Xue, W.;  Wang, Y.;  Yin, L.;  Wang, X.;  Li, X.;  Chen, C.;  Sui, J.;  Lin, X.;  Chen, Y.;  Liu, X.;  Mao, J.;  Xie, G.; Zhang, Q., Achieving High Thermoelectric Performance in Severely Distorted YbCd2Sb2. Adv. Funct. Mater. 2022, 32 (35), 2205215.</p>
+				<p><b>·</b>  Wang, C.;  Wang, Q.;  Zhang, Q.;  Chen, C.; Chen, Y., Intrinsic Zn Vacancies-Induced Wavelike Tunneling of Phonons and Ultralow Lattice Thermal Conductivity in Zintl Phase Sr2ZnSb2. Chem. Mater. 2022, 34 (17), 7837-7844.</p>
+				<p><b>·</b>  Wang, Q.;  Zeng, Z.; Chen, Y., Revisiting phonon transport in perovskite SrTiO3: Anharmonic phonon renormalization and four-phonon scattering. Phys. Rev. B 2021, 104 (23), 235205.</p>
+				<p><b>·</b>  Wang, Q.;  Guo, R.;  Huang, B.; Chen, Y., Unusual Width Dependence of Lattice Thermal Conductivity in Ultranarrow Armchair Graphene Nanoribbons with Unpassivated Edges. J. Phys. Chem. C 2021, 125 (11), 6034-6042.</p>
+				<p>For more previous publications, see my <a href="https://www.researchgate.net/profile/Qi-Wang-465">ResearchGate</a> or Google Scholar.</p>
+				<ul

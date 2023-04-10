@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HomePage of Qi Wang</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			#justify-content: center;
+			height: 100%;
+			background-color: #f1f1f1;
+		}
+		.image-container {
+			width: 80%;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		.button-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			width: 80%;
+			margin-bottom: 20px;
+		}
+		button {
+			flex-basis: 23%;
+			padding: 10px;
+			font-size: 16px;
+			border: none;
+			border-radius: 5px;
+			background-color: #335a5d;
+			color: white;
+			cursor: pointer;
+		}
+		.text {
+			width: 80%;
+			text-align: center;
+			font-size: 18px;
+			line-height: 1.5;
+			background-color: white;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		.contact {
+			width: 80%;
+			text-align: center;
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="image-container">
+		<img src="https://via.placeholder.com/900x200.png" alt="Placeholder image">
+	</div>
+	
+	<div class="button-container">
+		<button onclick="window.location.href='index.html'">Home</button>
+		<button onclick="window.location.href='research.html'">Research</button>
+		<button onclick="window.location.href='people.html'">People</button>
+		<button onclick="window.location.href='publications.html'">Publications</button>
+	</div>
+	
+	<div class="text">
+		<h1>Welcome to Qi Wang's group @ SDIAT!</h1>
+		<p>Our group is a research group lead by Dr. Qi Wang at Shandong Institute of Advanced Technology (SDIAT,山东高等技术研究院), China.</p>
+		<p>Our reseach interests include phonon transport with multiple atomic simulation methods (DFT, MD, DFTB, Machine Learning... ) and synthesize aerogels with ultralow thermal conductivity.</p>
+		<p><b>ALL COOPERATIONS ARE WELCOME!</b></p>
+	</div>
+	
+	<div class="contact">
+		<p>Email: qi.wang@iat.cn</p>
+	</div>
+</body>
+</html>
