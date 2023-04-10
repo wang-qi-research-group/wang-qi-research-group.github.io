@@ -1,0 +1,2 @@
+1. Wang, Q.;  Zeng, Z.;  Zhao, P.;  Chen, C.;  Ouyang, N.;  Mao, J.; Chen, Y., B-Site Columnar-Ordered Halide Double Perovskites: Breaking Octahedra Motions Induces Strong Lattice Anharmonicity and Thermal Anisotropy. Chem. Mater. 2023, 35 (4), 1633-1639.
+2. Tang, J. L.;  Li, G. T.;  Wang, Q.;  Zheng, J. Z.;  Cheng, L.; Guo, R. Q., Effect of four-phonon scattering on anisotropic thermal transport in bulk hexagonal boron nitride by machine learning interatomic potential. Int. J. Heat Mass Transfer 2023, 207.
